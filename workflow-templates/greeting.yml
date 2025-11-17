@@ -1,0 +1,10 @@
+name: Template about greeting
+on: 
+  push:
+    branches: [$branches]
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello, ${{ github.actor }}! Welcome to the ${{ github.repository }} repository."

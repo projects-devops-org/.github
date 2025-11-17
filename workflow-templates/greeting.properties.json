@@ -1,0 +1,14 @@
+    {
+      "name": "Template greeting",
+      "description": "workflow template.",
+      "iconName": "octicon thumbsup",
+      "categories": [
+        "nodejs",
+        "Continuous Integration"
+      ],
+      "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.js$"
+      ]
+    }
