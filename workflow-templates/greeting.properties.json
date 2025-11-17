@@ -9,7 +9,6 @@
       "filePatterns": [
         "package.json$",
         "^Dockerfile",
-        "*.ts$",
-        "*.js$"
+        ".*\\.ts$"
       ]
     }
