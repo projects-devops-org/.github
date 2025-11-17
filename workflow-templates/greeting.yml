@@ -1,7 +1,7 @@
 name: Template about greeting
 on: 
   push:
-    branches: [$branches]
+    branches: [$default-branch]
 jobs:
   greeting:
     runs-on: ubuntu-latest
